@@ -34,6 +34,7 @@ public class StuController {
     @ResponseBody
     public String hello(){
         System.out.println("调用了controller");
+        System.out.println("随便加点内容");
         return "hello+当前我的端口:"+ myport;
     }
 
